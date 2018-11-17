@@ -1,4 +1,7 @@
+For this directory structure:
+
 ProjectName.Solution
+├── README.md
 ├── ProjectName
 │   ├── ProjectName.csproj
 │   ├── Models
@@ -19,3 +22,4 @@ mkdir ProjectName ProjectName.Tests
 touch ProjectName/ProjectName.csproj ProjectName.Tests/ProjectName.Tests.csproj
 mkdir ProjectName/Models ProjectName.Tests/ModelTests
 touch ProjectName/Models/ClassName.cs ProjectName.Tests/ModelTests/ClassNameTests.cs
+git init
